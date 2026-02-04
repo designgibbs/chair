@@ -198,13 +198,13 @@
 	"images":[
 		{
 			"mimeType":"image/jpeg",
-			"name":"Image_1",
-			"uri":"Image_1.jpg"
+			"name":"oak_diffuse",
+			"uri":"oak_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"oak_diffuse",
-			"uri":"oak_diffuse.jpg"
+			"name":"oak_normal",
+			"uri":"oak_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
