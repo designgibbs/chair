@@ -162,12 +162,12 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_normal",
-			"uri":"oak_normal.jpg"
+			"uri":"textures/wood/oak_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_diffuse",
-			"uri":"oak_diffuse.jpg"
+			"uri":"textures/wood/oak_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
