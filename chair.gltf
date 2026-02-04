@@ -3,6 +3,9 @@
 		"generator":"Khronos glTF Blender I/O v4.2.60",
 		"version":"2.0"
 	},
+	"extensionsUsed":[
+		"KHR_materials_clearcoat"
+	],
 	"scene":0,
 	"scenes":[
 		{
@@ -19,16 +22,16 @@
 			"mesh":0,
 			"name":"chair_frame_high_painted",
 			"translation":[
-				-0.8184928894042969,
-				0,
-				0.5704431533813477
+				0.001917471643537283,
+				-0.006180976051837206,
+				0.053627967834472656
 			]
 		},
 		{
 			"mesh":1,
 			"name":"seat_low_textured",
 			"rotation":[
-				-0.048519209027290344,
+				-0.048519253730773926,
 				0,
 				0,
 				0.9988223314285278
@@ -39,16 +42,16 @@
 				1.3130275011062622
 			],
 			"translation":[
-				-0.8195756077766418,
-				0.49243807792663574,
-				0.6715834140777588
+				0.0008347532711923122,
+				0.4862571060657501,
+				0.1547682285308838
 			]
 		},
 		{
 			"mesh":2,
 			"name":"seat_back_low_material",
 			"rotation":[
-				-0.02379598096013069,
+				-0.023795995861291885,
 				0,
 				0,
 				0.9997169375419617
@@ -59,31 +62,43 @@
 				1.4085863828659058
 			],
 			"translation":[
-				-0.8158594369888306,
-				0.6926045417785645,
-				0.19915291666984558
+				0.0045509240590035915,
+				0.6864235401153564,
+				-0.3176622688770294
 			]
 		}
 	],
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Wood_Material",
+			"extensions":{
+				"KHR_materials_clearcoat":{
+					"clearcoatFactor":0.5199999809265137,
+					"clearcoatRoughnessFactor":0.23999999463558197
+				}
+			},
+			"name":"Material_0",
 			"normalTexture":{
 				"index":0,
-				"scale":1.2899999618530273
+				"scale":2.309999942779541
 			},
 			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.9130986332893372,
+					0.8962693810462952,
+					0.7835378050804138,
+					1
+				],
 				"baseColorTexture":{
 					"index":1
 				},
 				"metallicFactor":0,
-				"roughnessFactor":0.5
+				"roughnessFactor":0.3199999928474426
 			}
 		},
 		{
 			"doubleSided":true,
-			"name":"Cushion_Material",
+			"name":"Material.003",
 			"normalTexture":{
 				"index":2
 			},
@@ -97,7 +112,7 @@
 		},
 		{
 			"doubleSided":true,
-			"name":"Cushion_Material.001",
+			"name":"Material.004",
 			"normalTexture":{
 				"index":4
 			},
@@ -112,7 +127,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Wood.003",
+			"name":"Mesh_0",
 			"primitives":[
 				{
 					"attributes":{
@@ -126,7 +141,7 @@
 			]
 		},
 		{
-			"name":"Black.002",
+			"name":"Mesh_1",
 			"primitives":[
 				{
 					"attributes":{
@@ -140,7 +155,7 @@
 			]
 		},
 		{
-			"name":"Black.014",
+			"name":"Mesh_2",
 			"primitives":[
 				{
 					"attributes":{
@@ -183,44 +198,44 @@
 	"images":[
 		{
 			"mimeType":"image/jpeg",
-			"name":"oak_normal",
-			"uri":"oak_normal.jpg"
+			"name":"Image_1",
+			"uri":"Image_1.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"oak_texture_lit",
-			"uri":"oak_texture_lit.jpg"
+			"name":"Image_0",
+			"uri":"Image_0.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"Seat_leather_normal",
-			"uri":"Seat_leather_normal.jpg"
+			"name":"Image_3",
+			"uri":"Image_3.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"leather_sea_black2",
-			"uri":"leather_sea_black2.jpg"
+			"name":"Image_2",
+			"uri":"Image_2.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"Seat_back_normal",
-			"uri":"Seat_back_normal.jpg"
+			"name":"Image_5",
+			"uri":"Image_5.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"leather_back_black",
-			"uri":"leather_back_black.jpg"
+			"name":"Image_4",
+			"uri":"Image_4.jpg"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":8030,
+			"count":8041,
 			"max":[
 				0.42786353826522827,
-				0.9497890472412109,
-				0.419838547706604
+				0.9497648477554321,
+				0.4198157489299774
 			],
 			"min":[
 				-0.4298495650291443,
@@ -232,13 +247,13 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":8030,
+			"count":8041,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":8030,
+			"count":8041,
 			"type":"VEC2"
 		},
 		{
@@ -319,74 +334,74 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":96360,
+			"byteLength":96492,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":96360,
-			"byteOffset":96360,
+			"byteLength":96492,
+			"byteOffset":96492,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":64240,
-			"byteOffset":192720,
+			"byteLength":64328,
+			"byteOffset":192984,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":81432,
-			"byteOffset":256960,
+			"byteOffset":257312,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":81936,
-			"byteOffset":338392,
+			"byteOffset":338744,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":81936,
-			"byteOffset":420328,
+			"byteOffset":420680,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":54624,
-			"byteOffset":502264,
+			"byteOffset":502616,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":76968,
-			"byteOffset":556888,
+			"byteOffset":557240,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":81624,
-			"byteOffset":633856,
+			"byteOffset":634208,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":81624,
-			"byteOffset":715480,
+			"byteOffset":715832,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":54416,
-			"byteOffset":797104,
+			"byteOffset":797456,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":78648,
-			"byteOffset":851520,
+			"byteOffset":851872,
 			"target":34963
 		}
 	],
@@ -398,7 +413,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":930168,
+			"byteLength":930520,
 			"uri":"chair.bin"
 		}
 	]
