@@ -216,11 +216,11 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":8041,
+			"count":8030,
 			"max":[
 				0.42786353826522827,
-				0.9497648477554321,
-				0.4198157489299774
+				0.9497890472412109,
+				0.419838547706604
 			],
 			"min":[
 				-0.4298495650291443,
@@ -232,13 +232,13 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":8041,
+			"count":8030,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":8041,
+			"count":8030,
 			"type":"VEC2"
 		},
 		{
@@ -319,74 +319,74 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":96492,
+			"byteLength":96360,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":96492,
-			"byteOffset":96492,
+			"byteLength":96360,
+			"byteOffset":96360,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":64328,
-			"byteOffset":192984,
+			"byteLength":64240,
+			"byteOffset":192720,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":81432,
-			"byteOffset":257312,
+			"byteOffset":256960,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":81936,
-			"byteOffset":338744,
+			"byteOffset":338392,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":81936,
-			"byteOffset":420680,
+			"byteOffset":420328,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":54624,
-			"byteOffset":502616,
+			"byteOffset":502264,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":76968,
-			"byteOffset":557240,
+			"byteOffset":556888,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":81624,
-			"byteOffset":634208,
+			"byteOffset":633856,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":81624,
-			"byteOffset":715832,
+			"byteOffset":715480,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":54416,
-			"byteOffset":797456,
+			"byteOffset":797104,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":78648,
-			"byteOffset":851872,
+			"byteOffset":851520,
 			"target":34963
 		}
 	],
@@ -398,7 +398,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":930520,
+			"byteLength":930168,
 			"uri":"chair.bin"
 		}
 	]
