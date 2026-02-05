@@ -24,11 +24,11 @@
 		},
 		{
 			"mesh":1,
-			"name":"seat_low_textured"
+			"name":"seat_cushion"
 		},
 		{
 			"mesh":2,
-			"name":"seat_back_low_material"
+			"name":"back_cushion"
 		}
 	],
 	"materials":[
@@ -64,13 +64,11 @@
 			"name":"Black_Leather",
 			"normalTexture":{
 				"index":2,
-				"scale":1.6999999284744263,
-				"texCoord":1
+				"scale":1.350000023841858
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":3,
-					"texCoord":1
+					"index":3
 				},
 				"metallicFactor":0,
 				"roughnessFactor":0.5
@@ -99,10 +97,9 @@
 					"attributes":{
 						"POSITION":4,
 						"NORMAL":5,
-						"TEXCOORD_0":6,
-						"TEXCOORD_1":7
+						"TEXCOORD_0":6
 					},
-					"indices":8,
+					"indices":7,
 					"material":1
 				}
 			]
@@ -112,12 +109,11 @@
 			"primitives":[
 				{
 					"attributes":{
-						"POSITION":9,
-						"NORMAL":10,
-						"TEXCOORD_0":11,
-						"TEXCOORD_1":12
+						"POSITION":8,
+						"NORMAL":9,
+						"TEXCOORD_0":10
 					},
-					"indices":13,
+					"indices":11,
 					"material":1
 				}
 			]
@@ -154,8 +150,8 @@
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"combined_normals",
-			"uri":"combined_normals.jpg"
+			"name":"leather_black_normal",
+			"uri":"leather_black_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
@@ -228,18 +224,12 @@
 		},
 		{
 			"bufferView":7,
-			"componentType":5126,
-			"count":6828,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":8,
 			"componentType":5123,
 			"count":38484,
 			"type":"SCALAR"
 		},
 		{
-			"bufferView":9,
+			"bufferView":8,
 			"componentType":5126,
 			"count":6802,
 			"max":[
@@ -255,25 +245,19 @@
 			"type":"VEC3"
 		},
 		{
-			"bufferView":10,
+			"bufferView":9,
 			"componentType":5126,
 			"count":6802,
 			"type":"VEC3"
 		},
 		{
+			"bufferView":10,
+			"componentType":5126,
+			"count":6802,
+			"type":"VEC2"
+		},
+		{
 			"bufferView":11,
-			"componentType":5126,
-			"count":6802,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":12,
-			"componentType":5126,
-			"count":6802,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":13,
 			"componentType":5123,
 			"count":39324,
 			"type":"SCALAR"
@@ -324,44 +308,32 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":54624,
-			"byteOffset":557240,
-			"target":34962
-		},
-		{
-			"buffer":0,
 			"byteLength":76968,
-			"byteOffset":611864,
+			"byteOffset":557240,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":81624,
-			"byteOffset":688832,
+			"byteOffset":634208,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":81624,
-			"byteOffset":770456,
+			"byteOffset":715832,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":54416,
-			"byteOffset":852080,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":54416,
-			"byteOffset":906496,
+			"byteOffset":797456,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":78648,
-			"byteOffset":960912,
+			"byteOffset":851872,
 			"target":34963
 		}
 	],
@@ -373,7 +345,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":1039560,
+			"byteLength":930520,
 			"uri":"chair.bin"
 		}
 	]
