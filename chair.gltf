@@ -125,32 +125,32 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_normal",
-			"uri":"textures/wood/walnut_normal.jpg"
+			"uri":"walnut_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_diffuse",
-			"uri":"textures/wood/walnut_diffuse.jpg"
+			"uri":"walnut_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_normal",
-			"uri":"textures/cushion/leather_black_normal.jpg"
+			"uri":"leather_black_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_diffuse",
-			"uri":"textures/cushion/leather_black_diffuse.jpg"
+			"uri":"leather_black_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"oak_diffuse",
-			"uri":"textures/wood/oak_diffuse.png"
+			"uri":"oak_diffuse.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"oak_normal",
-			"uri":"textures/wood/oak_normal.png"
+			"uri":"oak_normal.png"
 		}
 	],
 	"accessors":[
