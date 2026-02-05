@@ -141,22 +141,22 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_normal",
-			"uri":"textures/wood/oak_normal.jpg"
+			"uri":"oak_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_diffuse",
-			"uri":"textures/wood/oak_diffuse.jpg"
+			"uri":"oak_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_normal",
-			"uri":"textures/cushion/leather_black_normal.jpg"
+			"uri":"leather_black_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_diffuse",
-			"uri":"textures/cushion/leather_black_diffuse.jpg"
+			"uri":"leather_black_diffuse.jpg"
 		}
 	],
 	"accessors":[
