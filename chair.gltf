@@ -3,9 +3,6 @@
 		"generator":"Khronos glTF Blender I/O v4.2.60",
 		"version":"2.0"
 	},
-	"extensionsUsed":[
-		"KHR_materials_clearcoat"
-	],
 	"scene":0,
 	"scenes":[
 		{
@@ -34,44 +31,31 @@
 	"materials":[
 		{
 			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_clearcoat":{
-					"clearcoatFactor":0.5199999809265137,
-					"clearcoatRoughnessFactor":0.23999999463558197
-				}
-			},
-			"name":"Oak_Wood",
+			"name":"Walnut_Wood",
 			"normalTexture":{
 				"index":0,
-				"scale":2.309999942779541
+				"scale":0
 			},
 			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.9130986332893372,
-					0.8962693810462952,
-					0.7835378050804138,
-					1
-				],
 				"baseColorTexture":{
 					"index":1
 				},
 				"metallicFactor":0,
-				"roughnessFactor":0.3199999928474426
+				"roughnessFactor":0.41363635659217834
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Black_Leather",
 			"normalTexture":{
-				"index":2,
-				"scale":1.350000023841858
+				"index":2
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":3
 				},
 				"metallicFactor":0,
-				"roughnessFactor":0.5
+				"roughnessFactor":0.580909013748169
 			}
 		}
 	],
@@ -140,23 +124,33 @@
 	"images":[
 		{
 			"mimeType":"image/jpeg",
-			"name":"oak_normal",
-			"uri":"textures/wood/oak_normal.jpg"
+			"name":"walnut_normal",
+			"uri":"walnut_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"oak_diffuse",
-			"uri":"textures/wood/oak_diffuse.jpg"
+			"name":"walnut_diffuse",
+			"uri":"walnut_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_normal",
-			"uri":"textures/cushion/leather_black_normal.jpg"
+			"uri":"leather_black_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_diffuse",
-			"uri":"textures/cushion/leather_black_diffuse.jpg"
+			"uri":"leather_black_diffuse.jpg"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"oak_diffuse",
+			"uri":"oak_diffuse.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"oak_normal",
+			"uri":"oak_normal.png"
 		}
 	],
 	"accessors":[
