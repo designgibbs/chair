@@ -203,42 +203,42 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_normal",
-			"uri":"textures/wood/oak_normal.jpg"
+			"uri":"oak_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_diffuse",
-			"uri":"textures/wood/oak_diffuse.jpg"
+			"uri":"oak_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_normal",
-			"uri":"textures/wood/walnut_normal.jpg"
+			"uri":"walnut_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_diffuse",
-			"uri":"textures/wood/walnut_diffuse.jpg"
+			"uri":"walnut_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"fabric_charcoal_normal",
-			"uri":"textures/cushion/fabric_charcoal_normal.jpg"
+			"uri":"fabric_charcoal_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"fabric_charcoal_diffuse",
-			"uri":"textures/cushion/fabric_charcoal_diffuse.jpg"
+			"uri":"fabric_charcoal_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_normal",
-			"uri":"textures/cushion/leather_black_normal.jpg"
+			"uri":"leather_black_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_diffuse",
-			"uri":"textures/cushion/leather_black_diffuse.jpg"
+			"uri":"leather_black_diffuse.jpg"
 		}
 	],
 	"accessors":[
