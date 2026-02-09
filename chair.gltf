@@ -234,52 +234,52 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_normal",
-			"uri":"oak_normal.jpg"
+			"uri":"textures/wood/oak_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_diffuse",
-			"uri":"oak_diffuse.jpg"
+			"uri":"textures/wood/oak_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_normal",
-			"uri":"walnut_normal.jpg"
+			"uri":"textures/wood/walnut_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_diffuse",
-			"uri":"walnut_diffuse.jpg"
+			"uri":"textures/wood/walnut_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_normal",
-			"uri":"leather_black_normal.jpg"
+			"uri":"textures/cushion/leather_black_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_diffuse",
-			"uri":"leather_black_diffuse.jpg"
+			"uri":"textures/cushion/leather_black_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"fabric_charcoal_normal",
-			"uri":"fabric_charcoal_normal.jpg"
+			"uri":"textures/cushion/fabric_charcoal_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"fabric_charcoal_diffuse",
-			"uri":"fabric_charcoal_diffuse.jpg"
+			"uri":"textures/cushion/fabric_charcoal_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_cognac_normal",
-			"uri":"leather_cognac_normal.jpg"
+			"uri":"textures/cushion/leather_cognac_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_cognac_diffuse",
-			"uri":"leather_cognac_diffuse.jpg"
+			"uri":"textures/cushion/leather_cognac_diffuse.jpg"
 		}
 	],
 	"accessors":[
