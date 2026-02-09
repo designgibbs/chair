@@ -64,7 +64,7 @@
 			"name":"Walnut_Wood",
 			"normalTexture":{
 				"index":2,
-				"scale":0
+				"scale":1.5299999713897705
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
@@ -120,7 +120,8 @@
 			"doubleSided":true,
 			"name":"Grey_Leather",
 			"normalTexture":{
-				"index":10
+				"index":10,
+				"scale":2
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
@@ -265,62 +266,62 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_normal",
-			"uri":"textures/wood/oak_normal.jpg"
+			"uri":"oak_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_diffuse",
-			"uri":"textures/wood/oak_diffuse.jpg"
+			"uri":"oak_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_normal",
-			"uri":"textures/wood/walnut_normal.jpg"
+			"uri":"walnut_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_diffuse",
-			"uri":"textures/wood/walnut_diffuse.jpg"
+			"uri":"walnut_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_normal",
-			"uri":"textures/cushion/leather_black_normal.jpg"
+			"uri":"leather_black_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_diffuse",
-			"uri":"textures/cushion/leather_black_diffuse.jpg"
+			"uri":"leather_black_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"fabric_charcoal_normal",
-			"uri":"textures/cushion/fabric_charcoal_normal.jpg"
+			"uri":"fabric_charcoal_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"fabric_charcoal_diffuse",
-			"uri":"textures/cushion/fabric_charcoal_diffuse.jpg"
+			"uri":"fabric_charcoal_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_cognac_normal",
-			"uri":"textures/cushion/leather_cognac_normal.jpg"
+			"uri":"leather_cognac_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_cognac_diffuse",
-			"uri":"textures/cushion/leather_cognac_diffuse.jpg"
+			"uri":"leather_cognac_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_grey_normal",
-			"uri":"textures/cushion/leather_grey_normal.jpg"
+			"uri":"leather_grey_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_grey_diffuse",
-			"uri":"textures/cushion/leather_grey_diffuse.jpg"
+			"uri":"leather_grey_diffuse.jpg"
 		}
 	],
 	"accessors":[
@@ -334,9 +335,9 @@
 				0.442611962556839
 			],
 			"min":[
-				0.35218220949172974,
+				0.35166409611701965,
 				0.0002453080378472805,
-				0.4105326235294342
+				0.4106139838695526
 			],
 			"type":"VEC3"
 		},
@@ -465,14 +466,14 @@
 			"componentType":5126,
 			"count":3,
 			"max":[
-				0.2480296492576599,
-				0.6893578767776489,
-				-0.31410491466522217
+				-0.31937578320503235,
+				0.6679413318634033,
+				-0.3027748465538025
 			],
 			"min":[
-				0.1722007691860199,
-				0.6007870435714722,
-				-0.35603150725364685
+				-0.3228522539138794,
+				0.622336208820343,
+				-0.32575586438179016
 			],
 			"type":"VEC3"
 		},
@@ -499,14 +500,14 @@
 			"componentType":5126,
 			"count":3,
 			"max":[
-				0.290901780128479,
-				0.7915393114089966,
-				-0.32535314559936523
+				-0.3204660415649414,
+				0.7094787359237671,
+				-0.32575586438179016
 			],
 			"min":[
-				0.23415173590183258,
-				0.6339805126190186,
-				-0.4053458571434021
+				-0.3235950171947479,
+				0.6679413318634033,
+				-0.34781932830810547
 			],
 			"type":"VEC3"
 		},
@@ -533,14 +534,14 @@
 			"componentType":5126,
 			"count":3,
 			"max":[
-				0.2754058837890625,
-				0.6339805126190186,
-				-0.2853347063064575
+				-0.3204660415649414,
+				0.7602807283401489,
+				-0.3459509611129761
 			],
 			"min":[
-				0.22824877500534058,
-				0.5636187195777893,
-				-0.32535314559936523
+				-0.3251339793205261,
+				0.7081542611122131,
+				-0.37017586827278137
 			],
 			"type":"VEC3"
 		},
