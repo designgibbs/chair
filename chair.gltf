@@ -115,6 +115,20 @@
 				"metallicFactor":0,
 				"roughnessFactor":0.5
 			}
+		},
+		{
+			"doubleSided":true,
+			"name":"Grey_Leather",
+			"normalTexture":{
+				"index":10
+			},
+			"pbrMetallicRoughness":{
+				"baseColorTexture":{
+					"index":11
+				},
+				"metallicFactor":0,
+				"roughnessFactor":0.5
+			}
 		}
 	],
 	"meshes":[
@@ -184,6 +198,15 @@
 					},
 					"indices":23,
 					"material":4
+				},
+				{
+					"attributes":{
+						"POSITION":24,
+						"NORMAL":25,
+						"TEXCOORD_0":26
+					},
+					"indices":19,
+					"material":5
 				}
 			]
 		}
@@ -228,58 +251,76 @@
 		{
 			"sampler":0,
 			"source":9
+		},
+		{
+			"sampler":0,
+			"source":10
+		},
+		{
+			"sampler":0,
+			"source":11
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_normal",
-			"uri":"textures/wood/oak_normal.jpg"
+			"uri":"oak_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"oak_diffuse",
-			"uri":"textures/wood/oak_diffuse.jpg"
+			"uri":"oak_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_normal",
-			"uri":"textures/wood/walnut_normal.jpg"
+			"uri":"walnut_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"walnut_diffuse",
-			"uri":"textures/wood/walnut_diffuse.jpg"
+			"uri":"walnut_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_normal",
-			"uri":"textures/cushion/leather_black_normal.jpg"
+			"uri":"leather_black_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_black_diffuse",
-			"uri":"textures/cushion/leather_black_diffuse.jpg"
+			"uri":"leather_black_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"fabric_charcoal_normal",
-			"uri":"textures/cushion/fabric_charcoal_normal.jpg"
+			"uri":"fabric_charcoal_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"fabric_charcoal_diffuse",
-			"uri":"textures/cushion/fabric_charcoal_diffuse.jpg"
+			"uri":"fabric_charcoal_diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_cognac_normal",
-			"uri":"textures/cushion/leather_cognac_normal.jpg"
+			"uri":"leather_cognac_normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"leather_cognac_diffuse",
-			"uri":"textures/cushion/leather_cognac_diffuse.jpg"
+			"uri":"leather_cognac_diffuse.jpg"
+		},
+		{
+			"mimeType":"image/jpeg",
+			"name":"leather_grey_normal",
+			"uri":"leather_grey_normal.jpg"
+		},
+		{
+			"mimeType":"image/jpeg",
+			"name":"leather_grey_diffuse",
+			"uri":"leather_grey_diffuse.jpg"
 		}
 	],
 	"accessors":[
@@ -416,7 +457,7 @@
 		{
 			"bufferView":15,
 			"componentType":5123,
-			"count":39318,
+			"count":39315,
 			"type":"SCALAR"
 		},
 		{
@@ -424,14 +465,14 @@
 			"componentType":5126,
 			"count":3,
 			"max":[
-				0.3100622296333313,
-				0.7922959327697754,
-				-0.370418906211853
+				0.2480296492576599,
+				0.6893578767776489,
+				-0.31410491466522217
 			],
 			"min":[
-				0.290901780128479,
-				0.7308605909347534,
-				-0.4053458571434021
+				0.1722007691860199,
+				0.6007870435714722,
+				-0.35603150725364685
 			],
 			"type":"VEC3"
 		},
@@ -458,14 +499,14 @@
 			"componentType":5126,
 			"count":3,
 			"max":[
-				0.3118080198764801,
-				0.8365320563316345,
-				-0.40299323201179504
-			],
-			"min":[
 				0.290901780128479,
 				0.7915393114089966,
-				-0.4267868995666504
+				-0.32535314559936523
+			],
+			"min":[
+				0.23415173590183258,
+				0.6339805126190186,
+				-0.4053458571434021
 			],
 			"type":"VEC3"
 		},
@@ -486,6 +527,34 @@
 			"componentType":5123,
 			"count":3,
 			"type":"SCALAR"
+		},
+		{
+			"bufferView":24,
+			"componentType":5126,
+			"count":3,
+			"max":[
+				0.2754058837890625,
+				0.6339805126190186,
+				-0.2853347063064575
+			],
+			"min":[
+				0.22824877500534058,
+				0.5636187195777893,
+				-0.32535314559936523
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":25,
+			"componentType":5126,
+			"count":3,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":26,
+			"componentType":5126,
+			"count":3,
+			"type":"VEC2"
 		}
 	],
 	"bufferViews":[
@@ -581,57 +650,75 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":78636,
+			"byteLength":78630,
 			"byteOffset":851972,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":36,
-			"byteOffset":930608,
+			"byteOffset":930604,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":36,
-			"byteOffset":930644,
+			"byteOffset":930640,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":24,
-			"byteOffset":930680,
+			"byteOffset":930676,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":6,
-			"byteOffset":930704,
+			"byteOffset":930700,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":36,
-			"byteOffset":930712,
+			"byteOffset":930708,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":36,
-			"byteOffset":930748,
+			"byteOffset":930744,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":24,
-			"byteOffset":930784,
+			"byteOffset":930780,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":6,
-			"byteOffset":930808,
+			"byteOffset":930804,
 			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":36,
+			"byteOffset":930812,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":36,
+			"byteOffset":930848,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":24,
+			"byteOffset":930884,
+			"target":34962
 		}
 	],
 	"samplers":[
@@ -642,7 +729,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":930816,
+			"byteLength":930908,
 			"uri":"chair.bin"
 		}
 	]
