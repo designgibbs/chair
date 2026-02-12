@@ -95,12 +95,12 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"warm-wall-diffuse",
-			"uri":"warm-wall-diffuse.jpg"
+			"uri":"textures/env/warm-wall-diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"warm-floor-diffuse",
-			"uri":"warm-floor-diffuse.jpg"
+			"uri":"textures/env/warm-floor-diffuse.jpg"
 		}
 	],
 	"accessors":[
