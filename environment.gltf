@@ -118,17 +118,17 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"warm-floor-normal",
-			"uri":"texture/env/warm-floor-normal.jpg"
+			"uri":"textures/env/warm-floor-normal.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"warm-floor-diffuse",
-			"uri":"texture/env/warm-floor-diffuse.jpg"
+			"uri":"textures/env/warm-floor-diffuse.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"warm-wall-diffuse",
-			"uri":"texture/env/warm-wall-diffuse.jpg"
+			"uri":"textures/env/warm-wall-diffuse.jpg"
 		}
 	],
 	"accessors":[
