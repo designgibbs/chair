@@ -84,10 +84,9 @@
 					"attributes":{
 						"POSITION":0,
 						"NORMAL":1,
-						"TEXCOORD_0":2,
-						"TEXCOORD_1":3
+						"TEXCOORD_0":2
 					},
-					"indices":4,
+					"indices":3,
 					"material":0
 				}
 			]
@@ -97,11 +96,11 @@
 			"primitives":[
 				{
 					"attributes":{
-						"POSITION":5,
-						"NORMAL":6,
-						"TEXCOORD_0":7
+						"POSITION":4,
+						"NORMAL":5,
+						"TEXCOORD_0":6
 					},
-					"indices":8,
+					"indices":7,
 					"material":1
 				}
 			]
@@ -137,17 +136,17 @@
 		{
 			"mimeType":"image/webp",
 			"name":"warm-floor-normal",
-			"uri":"textures/env/warm-floor-normal.webp"
+			"uri":"warm-floor-normal.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"warm-floor-diffuse",
-			"uri":"textures/env/warm-floor-diffuse.webp"
+			"uri":"warm-floor-diffuse.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"warm-wall-diffuse",
-			"uri":"textures/env/warm-wall-diffuse.webp"
+			"uri":"warm-wall-diffuse.webp"
 		}
 	],
 	"accessors":[
@@ -181,18 +180,12 @@
 		},
 		{
 			"bufferView":3,
-			"componentType":5126,
-			"count":32,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":4,
 			"componentType":5123,
 			"count":90,
 			"type":"SCALAR"
 		},
 		{
-			"bufferView":5,
+			"bufferView":4,
 			"componentType":5126,
 			"count":136,
 			"max":[
@@ -208,19 +201,19 @@
 			"type":"VEC3"
 		},
 		{
-			"bufferView":6,
+			"bufferView":5,
 			"componentType":5126,
 			"count":136,
 			"type":"VEC3"
 		},
 		{
-			"bufferView":7,
+			"bufferView":6,
 			"componentType":5126,
 			"count":136,
 			"type":"VEC2"
 		},
 		{
-			"bufferView":8,
+			"bufferView":7,
 			"componentType":5123,
 			"count":576,
 			"type":"SCALAR"
@@ -247,38 +240,32 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":256,
-			"byteOffset":1024,
-			"target":34962
-		},
-		{
-			"buffer":0,
 			"byteLength":180,
-			"byteOffset":1280,
+			"byteOffset":1024,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":1632,
-			"byteOffset":1460,
+			"byteOffset":1204,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":1632,
-			"byteOffset":3092,
+			"byteOffset":2836,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":1088,
-			"byteOffset":4724,
+			"byteOffset":4468,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":1152,
-			"byteOffset":5812,
+			"byteOffset":5556,
 			"target":34963
 		}
 	],
@@ -290,7 +277,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":6964,
+			"byteLength":6708,
 			"uri":"environment.bin"
 		}
 	]
