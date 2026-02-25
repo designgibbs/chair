@@ -137,17 +137,17 @@
 		{
 			"mimeType":"image/webp",
 			"name":"warm-floor-normal",
-			"uri":"warm-floor-normal.webp"
+			"uri":"textures/env/warm-floor-normal.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"warm-floor-diffuse",
-			"uri":"warm-floor-diffuse.webp"
+			"uri":"textures/env/warm-floor-diffuse.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"warm-wall-diffuse",
-			"uri":"warm-wall-diffuse.webp"
+			"uri":"textures/env/warm-wall-diffuse.webp"
 		}
 	],
 	"accessors":[
