@@ -6,8 +6,6 @@
 	"extensionsUsed":[
 		"KHR_draco_mesh_compression",
 		"KHR_materials_clearcoat",
-		"KHR_materials_specular",
-		"KHR_materials_ior",
 		"EXT_texture_webp"
 	],
 	"extensionsRequired":[
@@ -21,7 +19,9 @@
 			"nodes":[
 				0,
 				1,
-				2
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -32,7 +32,7 @@
 		},
 		{
 			"mesh":1,
-			"name":"seat_cushion",
+			"name":"cushion_seat_fabric",
 			"rotation":[
 				-0.048519209027290344,
 				0,
@@ -52,22 +52,62 @@
 		},
 		{
 			"mesh":2,
-			"name":"back_cushion",
+			"name":"cushion_back_fabric",
 			"rotation":[
-				-0.02379598096013069,
+				-0.06164732575416565,
 				0,
 				0,
-				0.9997169375419617
+				0.9980980157852173
+			],
+			"scale":[
+				0.003981479909271002,
+				0.003981479909271002,
+				0.0028941964264959097
+			],
+			"translation":[
+				0.1912318617105484,
+				0.6609411835670471,
+				-0.28183555603027344
+			]
+		},
+		{
+			"mesh":3,
+			"name":"cushion_seat_leather",
+			"rotation":[
+				-0.048519209027290344,
+				0,
+				0,
+				0.9988223314285278
 			],
 			"scale":[
 				1.4085863828659058,
 				1.4085863828659058,
-				1.4085863828659058
+				1.3130275011062622
 			],
 			"translation":[
-				0.004506873432546854,
-				0.6862032413482666,
-				-0.317933589220047
+				0.0008267535013146698,
+				0.48605698347091675,
+				0.1550445705652237
+			]
+		},
+		{
+			"mesh":4,
+			"name":"cushion_back_leather",
+			"rotation":[
+				-0.23974981904029846,
+				0,
+				0,
+				0.9708347320556641
+			],
+			"scale":[
+				1,
+				0.8868047595024109,
+				1
+			],
+			"translation":[
+				0.0032373997382819653,
+				0.7275373339653015,
+				-0.32304733991622925
 			]
 		}
 	],
@@ -76,14 +116,15 @@
 			"doubleSided":true,
 			"name":"Walnut_Wood",
 			"normalTexture":{
-				"index":0
+				"index":0,
+				"scale":0.25
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
 				},
 				"metallicFactor":0,
-				"roughnessFactor":0.3545454740524292
+				"roughnessFactor":0.30909091234207153
 			}
 		},
 		{
@@ -97,7 +138,7 @@
 			"name":"Oak_Wood",
 			"normalTexture":{
 				"index":2,
-				"scale":0.9299999475479126
+				"scale":0.1599999964237213
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
@@ -109,83 +150,34 @@
 		},
 		{
 			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularFactor":0.968181848526001
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
-				}
-			},
-			"name":"Black_Leather",
+			"name":"Flax_Fabric",
 			"normalTexture":{
 				"index":4
 			},
 			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.003936075605452061,
-					0.003936075605452061,
-					0.003936075605452061,
-					1
-				],
-				"metallicFactor":0,
-				"metallicRoughnessTexture":{
+				"baseColorTexture":{
 					"index":5
+				},
+				"metallicFactor":0,
+				"metallicRoughnessTexture":{
+					"index":6
 				}
 			}
 		},
 		{
 			"doubleSided":true,
-			"name":"Grey_Leather",
+			"name":"Black_Leather",
 			"normalTexture":{
-				"index":6
+				"index":7
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":7
-				},
-				"metallicFactor":0,
-				"metallicRoughnessTexture":{
 					"index":8
-				}
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularFactor":0.968181848526001
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
-				}
-			},
-			"name":"Cognac_Leather",
-			"normalTexture":{
-				"index":9
-			},
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":10
 				},
 				"metallicFactor":0,
 				"metallicRoughnessTexture":{
-					"index":11
+					"index":9
 				}
-			}
-		},
-		{
-			"doubleSided":true,
-			"name":"Charcoal_Fabric",
-			"normalTexture":{
-				"index":12
-			},
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":13
-				},
-				"metallicFactor":0,
-				"roughnessFactor":0.7213634252548218
 			}
 		}
 	],
@@ -236,7 +228,7 @@
 			]
 		},
 		{
-			"name":"Black.005",
+			"name":"Black.003",
 			"primitives":[
 				{
 					"attributes":{
@@ -261,7 +253,7 @@
 			]
 		},
 		{
-			"name":"Black.006",
+			"name":"Sphere.019",
 			"primitives":[
 				{
 					"attributes":{
@@ -282,7 +274,12 @@
 					"indices":15,
 					"material":2,
 					"mode":4
-				},
+				}
+			]
+		},
+		{
+			"name":"Black.004",
+			"primitives":[
 				{
 					"attributes":{
 						"POSITION":16,
@@ -302,7 +299,12 @@
 					"indices":19,
 					"material":3,
 					"mode":4
-				},
+				}
+			]
+		},
+		{
+			"name":"Black.007",
+			"primitives":[
 				{
 					"attributes":{
 						"POSITION":20,
@@ -320,27 +322,7 @@
 						}
 					},
 					"indices":23,
-					"material":4,
-					"mode":4
-				},
-				{
-					"attributes":{
-						"POSITION":24,
-						"NORMAL":25,
-						"TEXCOORD_0":26
-					},
-					"extensions":{
-						"KHR_draco_mesh_compression":{
-							"bufferView":6,
-							"attributes":{
-								"POSITION":0,
-								"NORMAL":1,
-								"TEXCOORD_0":2
-							}
-						}
-					},
-					"indices":27,
-					"material":5,
+					"material":3,
 					"mode":4
 				}
 			]
@@ -426,110 +408,58 @@
 				}
 			},
 			"sampler":0
-		},
-		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":10
-				}
-			},
-			"sampler":0
-		},
-		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":11
-				}
-			},
-			"sampler":0
-		},
-		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":12
-				}
-			},
-			"sampler":0
-		},
-		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":13
-				}
-			},
-			"sampler":0
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/webp",
 			"name":"walnut_normal",
-			"uri":"textures/wood/walnut_normal.webp"
+			"uri":"walnut_normal.webp"
 		},
 		{
 			"mimeType":"image/webp",
-			"name":"walnut_diffuse",
-			"uri":"textures/wood/walnut_diffuse.webp"
+			"name":"walnut_diffuse_studio",
+			"uri":"walnut_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"oak_normal",
-			"uri":"textures/wood/oak_normal.webp"
+			"uri":"oak_normal.webp"
 		},
 		{
 			"mimeType":"image/webp",
-			"name":"oak_diffuse",
-			"uri":"textures/wood/oak_diffuse.webp"
+			"name":"oak_diffuse_studio",
+			"uri":"oak_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
-			"name":"leather_black_normal",
-			"uri":"textures/cushion/leather_black_normal.webp"
+			"name":"fabric_flax_normal_studio",
+			"uri":"fabric_flax_normal_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
-			"name":"leather_black_roughness",
-			"uri":"textures/cushion/leather_black_roughness.webp"
+			"name":"fabric_flax_diffuse_studio",
+			"uri":"fabric_flax_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
-			"name":"leather_grey_normal",
-			"uri":"textures/cushion/leather_grey_normal.webp"
+			"name":"fabric_flax_roughness_studio",
+			"uri":"fabric_flax_roughness_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
-			"name":"leather_grey_diffuse",
-			"uri":"textures/cushion/leather_grey_diffuse.webp"
+			"name":"leather_black_normal_studio",
+			"uri":"leather_black_normal_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
-			"name":"leather_grey_roughness",
-			"uri":"textures/cushion/leather_grey_roughness.webp"
+			"name":"leather_black_diffuse_studio",
+			"uri":"leather_black_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
-			"name":"leather_cognac_normal",
-			"uri":"textures/cushion/leather_cognac_normal.webp"
-		},
-		{
-			"mimeType":"image/webp",
-			"name":"leather_cognac_diffuse",
-			"uri":"textures/cushion/leather_cognac_diffuse.webp"
-		},
-		{
-			"mimeType":"image/webp",
-			"name":"leather_cognac_roughness",
-			"uri":"textures/cushion/leather_cognac_roughness.webp"
-		},
-		{
-			"mimeType":"image/webp",
-			"name":"fabric_charcoal_normal",
-			"uri":"textures/cushion/fabric_charcoal_normal.webp"
-		},
-		{
-			"mimeType":"image/webp",
-			"name":"fabric_charcoal_diffuse",
-			"uri":"textures/cushion/fabric_charcoal_diffuse.webp"
+			"name":"leather_black_roughness_studio",
+			"uri":"leather_black_roughness_studio.webp"
 		}
 	],
 	"accessors":[
@@ -625,122 +555,92 @@
 		},
 		{
 			"componentType":5126,
-			"count":9483,
+			"count":12408,
 			"max":[
-				0.23691856861114502,
-				0.19089117646217346,
-				0.0788390040397644
+				35.9156608581543,
+				73.17637634277344,
+				20.48356819152832
 			],
 			"min":[
-				-0.23670653998851776,
-				-0.14011602103710175,
-				-0.11390390992164612
+				-130.41766357421875,
+				-37.934242248535156,
+				-58.85597610473633
 			],
 			"type":"VEC3"
 		},
 		{
 			"componentType":5126,
-			"count":9483,
+			"count":12408,
 			"type":"VEC3"
 		},
 		{
 			"componentType":5126,
-			"count":9483,
+			"count":12408,
 			"type":"VEC2"
 		},
 		{
 			"componentType":5123,
-			"count":45459,
+			"count":73185,
 			"type":"SCALAR"
 		},
 		{
 			"componentType":5126,
-			"count":4,
+			"count":31714,
 			"max":[
-				0.22642186284065247,
-				0.10451269894838333,
-				-0.039801012724637985
+				0.23772074282169342,
+				0.020140524953603745,
+				0.22533126175403595
 			],
 			"min":[
-				0.21391937136650085,
-				0.04522111639380455,
-				-0.06875425577163696
+				-0.23743201792240143,
+				-0.055929623544216156,
+				-0.2638169825077057
 			],
 			"type":"VEC3"
 		},
 		{
 			"componentType":5126,
-			"count":4,
+			"count":31714,
 			"type":"VEC3"
 		},
 		{
 			"componentType":5126,
-			"count":4,
+			"count":31714,
 			"type":"VEC2"
 		},
 		{
 			"componentType":5123,
-			"count":6,
+			"count":163722,
 			"type":"SCALAR"
 		},
 		{
 			"componentType":5126,
-			"count":4,
+			"count":24080,
 			"max":[
-				0.22787021100521088,
-				0.04522111639380455,
-				-0.014016184024512768
+				0.3317228853702545,
+				0.27613332867622375,
+				0.03147390857338905
 			],
 			"min":[
-				0.2150319516658783,
-				-0.009550792165100574,
-				-0.039801012724637985
+				-0.33058837056159973,
+				-0.2500801980495453,
+				-0.06761763989925385
 			],
 			"type":"VEC3"
 		},
 		{
 			"componentType":5126,
-			"count":4,
+			"count":24080,
 			"type":"VEC3"
 		},
 		{
 			"componentType":5126,
-			"count":4,
+			"count":24080,
 			"type":"VEC2"
 		},
 		{
 			"componentType":5123,
-			"count":6,
-			"type":"SCALAR"
-		},
-		{
-			"componentType":5126,
-			"count":4,
-			"max":[
-				0.22642186284065247,
-				-0.009550792165100574,
-				0.011701973155140877
-			],
-			"min":[
-				0.21391937136650085,
-				-0.06587444245815277,
-				-0.014016184024512768
-			],
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":4,
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":4,
-			"type":"VEC2"
-		},
-		{
-			"componentType":5123,
-			"count":6,
+			"count":116709,
 			"type":"SCALAR"
 		}
 	],
@@ -757,28 +657,23 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":88119,
+			"byteLength":87261,
 			"byteOffset":51960
 		},
 		{
 			"buffer":0,
-			"byteLength":67038,
-			"byteOffset":140080
+			"byteLength":82543,
+			"byteOffset":139224
 		},
 		{
 			"buffer":0,
-			"byteLength":205,
-			"byteOffset":207120
+			"byteLength":197619,
+			"byteOffset":221768
 		},
 		{
 			"buffer":0,
-			"byteLength":204,
-			"byteOffset":207328
-		},
-		{
-			"buffer":0,
-			"byteLength":204,
-			"byteOffset":207532
+			"byteLength":159008,
+			"byteOffset":419388
 		}
 	],
 	"samplers":[
@@ -789,7 +684,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":207736,
+			"byteLength":578396,
 			"uri":"chair.bin"
 		}
 	]
