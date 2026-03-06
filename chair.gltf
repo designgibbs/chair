@@ -414,52 +414,52 @@
 		{
 			"mimeType":"image/webp",
 			"name":"walnut_normal",
-			"uri":"walnut_normal.webp"
+			"uri":"textures/wood/walnut_normal.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"walnut_diffuse_studio",
-			"uri":"walnut_diffuse_studio.webp"
+			"uri":"textures/wood/walnut_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"oak_normal",
-			"uri":"oak_normal.webp"
+			"uri":"textures/wood/oak_normal.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"oak_diffuse_studio",
-			"uri":"oak_diffuse_studio.webp"
+			"uri":"textures/wood/oak_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"fabric_flax_normal_studio",
-			"uri":"fabric_flax_normal_studio.webp"
+			"uri":"textures/cushion/fabric_flax_normal_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"fabric_flax_diffuse_studio",
-			"uri":"fabric_flax_diffuse_studio.webp"
+			"uri":"textures/cushion/fabric_flax_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"fabric_flax_roughness_studio",
-			"uri":"fabric_flax_roughness_studio.webp"
+			"uri":"textures/cushion/fabric_flax_roughness_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_black_normal_studio",
-			"uri":"leather_black_normal_studio.webp"
+			"uri":"textures/cushion/leather_black_normal_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_black_diffuse_studio",
-			"uri":"leather_black_diffuse_studio.webp"
+			"uri":"textures/cushion/leather_black_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_black_roughness_studio",
-			"uri":"leather_black_roughness_studio.webp"
+			"uri":"textures/cushion/leather_black_roughness_studio.webp"
 		}
 	],
 	"accessors":[
