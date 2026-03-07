@@ -72,6 +72,26 @@
 		},
 		{
 			"mesh":3,
+			"name":"cushion_seat_back",
+			"rotation":[
+				-0.23974981904029846,
+				0,
+				0,
+				0.9708347320556641
+			],
+			"scale":[
+				1,
+				0.8868047595024109,
+				1
+			],
+			"translation":[
+				0.0032373997382819653,
+				0.7275373339653015,
+				-0.32304733991622925
+			]
+		},
+		{
+			"mesh":4,
 			"name":"cushion_seat_leather",
 			"rotation":[
 				-0.048519209027290344,
@@ -88,26 +108,6 @@
 				0.0008267535013146698,
 				0.48605698347091675,
 				0.1550445705652237
-			]
-		},
-		{
-			"mesh":4,
-			"name":"cushion_back_leather",
-			"rotation":[
-				-0.23974981904029846,
-				0,
-				0,
-				0.9708347320556641
-			],
-			"scale":[
-				1,
-				0.8868047595024109,
-				1
-			],
-			"translation":[
-				0.0032373997382819653,
-				0.7275373339653015,
-				-0.32304733991622925
 			]
 		}
 	],
@@ -310,7 +310,7 @@
 			]
 		},
 		{
-			"name":"Black.004",
+			"name":"Black.006",
 			"primitives":[
 				{
 					"attributes":{
@@ -331,12 +331,7 @@
 					"indices":19,
 					"material":3,
 					"mode":4
-				}
-			]
-		},
-		{
-			"name":"Black.007",
-			"primitives":[
+				},
 				{
 					"attributes":{
 						"POSITION":20,
@@ -354,7 +349,7 @@
 						}
 					},
 					"indices":23,
-					"material":3,
+					"material":4,
 					"mode":4
 				},
 				{
@@ -374,9 +369,14 @@
 						}
 					},
 					"indices":27,
-					"material":4,
+					"material":5,
 					"mode":4
-				},
+				}
+			]
+		},
+		{
+			"name":"Black.008",
+			"primitives":[
 				{
 					"attributes":{
 						"POSITION":28,
@@ -394,7 +394,7 @@
 						}
 					},
 					"indices":31,
-					"material":5,
+					"material":3,
 					"mode":4
 				}
 			]
@@ -534,82 +534,82 @@
 		{
 			"mimeType":"image/webp",
 			"name":"walnut_normal",
-			"uri":"textures/wood/walnut_normal.webp"
+			"uri":"walnut_normal.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"walnut_diffuse_studio",
-			"uri":"textures/wood/walnut_diffuse_studio.webp"
+			"uri":"walnut_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"oak_normal",
-			"uri":"textures/wood/oak_normal.webp"
+			"uri":"oak_normal.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"oak_diffuse_studio",
-			"uri":"textures/wood/oak_diffuse_studio.webp"
+			"uri":"oak_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"fabric_flax_normal_studio",
-			"uri":"textures/cushion/fabric_flax_normal_studio.webp"
+			"uri":"fabric_flax_normal_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"fabric_flax_diffuse_studio",
-			"uri":"textures/cushion/fabric_flax_diffuse_studio.webp"
+			"uri":"fabric_flax_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"fabric_flax_roughness_studio",
-			"uri":"textures/cushion/fabric_flax_roughness_studio.webp"
+			"uri":"fabric_flax_roughness_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_black_normal_studio",
-			"uri":"textures/cushion/leather_black_normal_studio.webp"
+			"uri":"leather_black_normal_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_black_diffuse_studio",
-			"uri":"textures/cushion/leather_black_diffuse_studio.webp"
+			"uri":"leather_black_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_black_roughness_studio",
-			"uri":"textures/cushion/leather_black_roughness_studio.webp"
+			"uri":"leather_black_roughness_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_cognac_normal_studio",
-			"uri":"textures/cushion/leather_cognac_normal_studio.webp"
+			"uri":"leather_cognac_normal_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_cognac_diffuse_studio",
-			"uri":"textures/cushion/leather_cognac_diffuse_studio.webp"
+			"uri":"leather_cognac_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_cognac_roughness_studio",
-			"uri":"textures/cushion/leather_cognac_roughness_studio.webp"
+			"uri":"leather_cognac_roughness_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_grey_normal_studio",
-			"uri":"textures/cushion/leather_grey_normal_studio.webp"
+			"uri":"leather_grey_normal_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_grey_diffuse_studio",
-			"uri":"textures/cushion/leather_grey_diffuse_studio.webp"
+			"uri":"leather_grey_diffuse_studio.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"leather_grey_roughness_studio",
-			"uri":"textures/cushion/leather_grey_roughness_studio.webp"
+			"uri":"leather_grey_roughness_studio.webp"
 		}
 	],
 	"accessors":[
@@ -735,6 +735,96 @@
 		},
 		{
 			"componentType":5126,
+			"count":24082,
+			"max":[
+				0.3317228853702545,
+				0.27613332867622375,
+				0.03147390857338905
+			],
+			"min":[
+				-0.33058837056159973,
+				-0.2500801980495453,
+				-0.06761763989925385
+			],
+			"type":"VEC3"
+		},
+		{
+			"componentType":5126,
+			"count":24082,
+			"type":"VEC3"
+		},
+		{
+			"componentType":5126,
+			"count":24082,
+			"type":"VEC2"
+		},
+		{
+			"componentType":5123,
+			"count":116703,
+			"type":"SCALAR"
+		},
+		{
+			"componentType":5126,
+			"count":3,
+			"max":[
+				-0.3129431903362274,
+				0.22240976989269257,
+				-0.031107494607567787
+			],
+			"min":[
+				-0.3251379132270813,
+				0.0810939371585846,
+				-0.04047881439328194
+			],
+			"type":"VEC3"
+		},
+		{
+			"componentType":5126,
+			"count":3,
+			"type":"VEC3"
+		},
+		{
+			"componentType":5126,
+			"count":3,
+			"type":"VEC2"
+		},
+		{
+			"componentType":5123,
+			"count":3,
+			"type":"SCALAR"
+		},
+		{
+			"componentType":5126,
+			"count":3,
+			"max":[
+				-0.31443437933921814,
+				0.0810939371585846,
+				-0.03255125507712364
+			],
+			"min":[
+				-0.3214470446109772,
+				-0.023904884234070778,
+				-0.03690987452864647
+			],
+			"type":"VEC3"
+		},
+		{
+			"componentType":5126,
+			"count":3,
+			"type":"VEC3"
+		},
+		{
+			"componentType":5126,
+			"count":3,
+			"type":"VEC2"
+		},
+		{
+			"componentType":5123,
+			"count":3,
+			"type":"SCALAR"
+		},
+		{
+			"componentType":5126,
 			"count":31714,
 			"max":[
 				0.23772074282169342,
@@ -762,96 +852,6 @@
 			"componentType":5123,
 			"count":163722,
 			"type":"SCALAR"
-		},
-		{
-			"componentType":5126,
-			"count":24081,
-			"max":[
-				0.3317228853702545,
-				0.27613332867622375,
-				0.03147390857338905
-			],
-			"min":[
-				-0.33058837056159973,
-				-0.2500801980495453,
-				-0.06761763989925385
-			],
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":24081,
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":24081,
-			"type":"VEC2"
-		},
-		{
-			"componentType":5123,
-			"count":116700,
-			"type":"SCALAR"
-		},
-		{
-			"componentType":5126,
-			"count":3,
-			"max":[
-				-0.3063999116420746,
-				0.22240976989269257,
-				-0.03690987452864647
-			],
-			"min":[
-				-0.31443437933921814,
-				0.07980441302061081,
-				-0.04131913185119629
-			],
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":3,
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":3,
-			"type":"VEC2"
-		},
-		{
-			"componentType":5123,
-			"count":3,
-			"type":"SCALAR"
-		},
-		{
-			"componentType":5126,
-			"count":4,
-			"max":[
-				-0.30855444073677063,
-				0.07980441302061081,
-				-0.03494954854249954
-			],
-			"min":[
-				-0.3185911774635315,
-				-0.046130336821079254,
-				-0.039342835545539856
-			],
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":4,
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":4,
-			"type":"VEC2"
-		},
-		{
-			"componentType":5123,
-			"count":6,
-			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
@@ -877,23 +877,23 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":197619,
+			"byteLength":159093,
 			"byteOffset":221768
 		},
 		{
 			"buffer":0,
-			"byteLength":159016,
-			"byteOffset":419388
+			"byteLength":183,
+			"byteOffset":380864
 		},
 		{
 			"buffer":0,
-			"byteLength":188,
-			"byteOffset":578404
+			"byteLength":185,
+			"byteOffset":381048
 		},
 		{
 			"buffer":0,
-			"byteLength":203,
-			"byteOffset":578592
+			"byteLength":197736,
+			"byteOffset":381236
 		}
 	],
 	"samplers":[
@@ -904,7 +904,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":578796,
+			"byteLength":578972,
 			"uri":"chair.bin"
 		}
 	]
