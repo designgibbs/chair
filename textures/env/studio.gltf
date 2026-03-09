@@ -90,7 +90,7 @@
 		{
 			"mimeType":"image/webp",
 			"name":"studio_env",
-			"uri":"textures/env/studio_env.webp"
+			"uri":"studio_env.webp"
 		}
 	],
 	"accessors":[
